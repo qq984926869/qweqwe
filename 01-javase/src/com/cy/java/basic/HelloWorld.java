@@ -9,10 +9,11 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         //sout
-        //System.out.println("helloworld");
+        System.out.println("helloworld");
         for(int i=0;i<args.length;i++){
             System.out.println(args[i]);
         };
+        System.out.println("helloworld");
         System.out.println("welcome");
     }
 }
